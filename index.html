@@ -4,53 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Tobias</title>
-    <link rel="stylesheet" href="./assets/css/global/reset.css">
-    <link rel="stylesheet" href="./assets/css/global/normalize.css">
+    <!-- <link rel="stylesheet" href="./assets/css/global/reset.css"> -->
+    <!-- <link rel="stylesheet" href="./assets/css/global/normalize.css"> -->
     <link rel="stylesheet" href="public/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/global/style.css">
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Blog Tobias</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="economia.html">economia</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="esportes.html">esportes</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="portal-de-games.html">games</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="portal-de-noticias.html">noticias</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="portal-de-noticias.html">redes sociais</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="portal-vagas-de-emprego.html">vagas de emprego</a>
-                  </li>
-                </ul>
-              </div>
+    
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="assets/img/globais/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="economia.html">economia</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="esportes.html">esportes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portal-de-games.html">games</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portal-de-noticias.html">noticias</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portal-de-noticias.html">redes sociais</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portal-vagas-de-emprego.html">vagas de emprego</a>
+                </li>
+              </ul>
             </div>
-          </nav>
-        <h1>Blog tobias</h1>
-        <p>Bem-vindo ao Blog Tobias, seu destino para uma variedade de conteúdos incríveis! Explore o mundo dos esportes, mergulhe no universo dos jogos, mantenha-se atualizado com as últimas notícias e tendências nas redes sociais. Além disso, descubra oportunidades de emprego emocionantes. Esteja à frente do jogo com o Blog Tobias!</p>
-        <h2>Nossas redes sociais </h2>
+          </div>
+        </nav>
+        <header>
+        <p>Bem-vindo ao Blog Tobias! Explore esportes, jogos, notícias e tendências sociais. Descubra oportunidades de emprego emocionantes e esteja à frente do jogo!</p>
         <ul>
-            <li><abbr title="facebook"><img src="img/facebook.png" alt="logo facebook" width="30px"></abbr> Blog Tobias</li>
-            <li><abbr title="instagram"><img src="./assets/img/globais/instagram.png" alt="logo facebook" width="30px"></abbr> @blogtobias</li>
-            <li><abbr title="telegrama"><img src="img/telegrama.png" alt="logo facebook" width="30px"></abbr> Blog Tobias</li>
+            <li><abbr title="facebook"><img src="./assets/img/globais/facebook.png" alt="logo facebook" width="30px"></abbr> Blog Tobias</li>
+            <li><abbr title="instagram"><img src="./assets/img/globais/instagram.png" alt="logo instagram" width="30px"></abbr> @blogtobias</li>
+            <li><abbr title="telegrama"><img src="./assets/img/globais/telegrama.png" alt="logo telegram" width="30px"></abbr> Blog Tobias</li>
         </ul>
           
     </header>
@@ -60,7 +59,11 @@
             <h1>Economia</h1>
             <h2>A sincronização de bases de dados resultou em uma economia de R$ 7,5 bilhões para o Governo Federal em 2023.</h2>
             <p>A integração de bases de dados pelo Governo Federal em 2023 resultou em uma economia de R$ 7,5 bilhões. Essa abordagem estratégica simplifica processos, identifica eficiências e promove uma melhor alocação de recursos. Além dos benefícios financeiros, fortalece a transparência e a governança, gerando confiança entre os cidadãos e stakeholders. <a href="economia.html">Leia mais</a></p>
-            <img src="./assets/img/pages/portal-noticias/imgem de politicos.jpg" alt="Seminário do Sistema Eletrônico dos Registros Públicos" >
+            <picture>
+              <source media="(min-width: 700px)" srcset="./assets/img/pages/portal-noticias/img-de-politicos.jpg">
+              <img src="./assets/img/pages/portal-noticias/img-de-politicos-300px.jpg" alt="Seminário do Sistema Eletrônico dos Registros Públicos" style="width: auto;">
+            </picture>
+            
             <figcaption>Seminário do Sistema Eletrônico dos Registros Públicos (Serp)</figcaption>
         </section>
         <section>
