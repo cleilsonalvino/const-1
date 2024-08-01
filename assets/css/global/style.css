@@ -13,11 +13,12 @@
 
 body{
    padding: 10px;
-   width: 100vh;
+   width: 100vw;
    height: 100vh;
-   margin: auto;
    background-color: rgb(239, 239, 239);
+   font-family: 'Poppins';
 }
+
 
 h1, h2{
     font-family: Arial, Helvetica, sans-serif;
@@ -27,7 +28,34 @@ h1, h2{
 
 nav{
     border-radius: 10px 10px 0px 0px;
+    width: 80vw;
+    margin: auto;
+    
 }
+nav > ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin-left: 20px;
+    
+}
+
+nav > ul > a {
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.2s linear;
+}
+
+nav > ul > a:hover {
+    background-color: #c9c9c9a4;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav > ul > a:visited{
+    color: black;
+}
+
 
 
 header {
@@ -42,7 +70,9 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 80vw;
     margin: auto;
+
 }
 
 header > p{
@@ -61,12 +91,16 @@ header > ul{
 }
 
 header > ul > li{
-    padding: 3px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
 }
 
+main{
+    width: 100%;
+}
 
 section {
-    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
