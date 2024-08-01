@@ -96,18 +96,46 @@ header > ul > li{
     align-items: center;
 }
 
+header > h1 {
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
 main{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    margin: auto;
+
 }
 
 section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 80vw;
     font-size: 1em;
     margin: auto;
     background-color: white;
     overflow: hidden;
-    padding: 10px;
     border: 10px solid white;
+}
+
+.info-box{
+    column-count: 2;
+    column-gap: 20px;
+    width: 70vw;
+    margin: 0;
+}
+
+.info-box > p {
+   margin: 0;
+}
+
+.info-box > img {
+    width: 100%;
+    height: auto;
 }
