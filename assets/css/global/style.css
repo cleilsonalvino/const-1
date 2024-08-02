@@ -102,7 +102,7 @@ header > h1 {
 }
 
 main{
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -116,12 +116,17 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80vw;
+    width: 50%;
     font-size: 1em;
     margin: auto;
     background-color: white;
-    overflow: hidden;
     border: 10px solid white;
+    text-align: justify;
+}
+
+
+q{
+    font-size: small;
 }
 
 .info-box{
@@ -138,4 +143,9 @@ section {
 .info-box > img {
     width: 100%;
     height: auto;
+}
+
+.content{
+    text-align: left;
+    margin: 10px;
 }
