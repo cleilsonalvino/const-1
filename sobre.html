@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sobre</title>
     <link rel="stylesheet" href="assets/css/global/style.css">
+    <link rel="stylesheet" href="assets/css/sobre.css">
 </head>
 <body>
   <nav>
@@ -45,7 +46,7 @@
   <header>
     <p>Bem-vindo ao Blog Tobias! Explore esportes, jogos, notícias e tendências sociais. Descubra oportunidades de
       emprego emocionantes e esteja à frente do jogo!</p>
-    <p>Quer saber mais sobre como funciona o site ou ainda sobre quem somos nós? fique por dentro dessas informações logo abaixo ou ainda caso queira dar alguma opinião para melhoria do site ou sugestão de novas funcionalidades. Entre em contato conosco logo abaixo!</p>
+    <p>Quer saber mais sobre como funciona o site ou ainda sobre quem somos nós? fique por dentro dessas informações logo abaixo ou ainda caso queira dar alguma opinião para melhoria do site ou sugestão de novas funcionalidades. Entre em contato conosco!</p>
     <ul>
       <li><abbr title="facebook"><img src="./assets/img/globais/facebook.png" alt="logo facebook" width="30px"></abbr>
         Blog Tobias</li>
@@ -56,5 +57,115 @@
     </ul>
   </header>
     <span><a href="index.html">Home</a> > <a href="sobre.html">Sobre</a></span>
+    <h1>Sobre Nós:</h1>
+    <main>
+    <section>
+        <h3>O Que Fazemos</h3>
+        <p>Somos um portal de notícias dedicado a fornecer informações precisas, imparciais e atualizadas sobre os eventos mais relevantes de Tobias Barreto e do mundo. Nosso objetivo é manter você informado sobre as últimas novidades em política, economia, tecnologia, saúde, entretenimento e muito mais.</p>
+    </section>
+    
+    <section>
+        <h3>Nossa História</h3>
+        <p>Fundado em 2024, nosso portal começou como um pequeno blog de notícias, e ao longo dos anos, crescemos para nos tornar uma das principais fontes de informação confiável no município. Nossa equipe é dedicada, somos comprometidos em trazer as notícias mais relevantes e impactantes.</p>
+    </section>
+
+    <section>
+        <h3>Valores, Crenças e Princípios</h3>
+        <p>Acreditamos no poder da informação e na importância de um jornalismo ético e transparente. Nossos valores fundamentais incluem a busca pela verdade, a imparcialidade, a responsabilidade social e o respeito pelos nossos leitores. Estamos comprometidos em manter a integridade em todas as nossas reportagens.</p>
+    </section>
+
+    <section>
+        <h3>O Que é Importante para Nós e Por Quê</h3>
+        <p>A transparência e a precisão são vitais para nosso trabalho porque acreditamos que um público bem informado é essencial para uma sociedade justa e democrática. Buscamos continuamente garantir que nossos leitores possam confiar em nós como sua principal fonte de notícias.</p>
+    </section>
+
+    <section>
+        <h3>Conquistas e Reconhecimento</h3>
+        <p>Somos iniciantes, não recebemos diversas menções na imprensa ou prêmios de jornalismo. Esses reconhecimentos são metas definidas e que desejamos alcançar.</p>
+    </section>
+    <h2>Contato:</h2>
+    <section>
+    <p>Caso tenha alguma sugestão de melhoria ou ainda deseje reportar algum bug, forneça-nos algumas informações e não deixe de enviar-nos seu feedback em uma mensagem!</p>
+        <form action="https://www.w3schools.com/action_page.php" target="_blank">
+          <h3>Formulário de Sugestão de Melhoria / Relato de Bug</h3>
+          <legend>Preencha o formulário para contato!</legend>
+          <h4>Informações de Contato</h4>
+          <div class="form-group">
+            <div class="form-column">
+            <label for="">Nome e Sobrenome:</label>
+            <input type="text" name="nome" required><br>
+          </div>
+         <div class="form-column">
+            <label for="">Email:</label>
+            <input type="email" name="email" required><br>
+          </div>
+          <div class="form-column">
+            <label for=""> Data de nascimento:</label>
+            <input type="date" name="Idade"><br><br>
+          </div>
+        </div>
+        <hr>
+        <h4>Informações sobre o Relato</h4>
+        <div class="form-group">
+          <div class="form-column">
+          <label for="">Tipo de Relato:</label> 
+          <select name="secao" required>
+            <option value="novas-func">Novas funcionalidades. </option>
+            <option value="melhoria-func">Melhoria de funcionalidade.</option>
+            <option value="melhoria-designer">Melhoria de designer.</option>
+            <option value="Melhoria-comport">Melhoria de comportamento.</option>
+            <option value="Sugestao-bug">Localização de bug.</option>
+            <option value="falha-carregamento">Falha ao carregar página, imagem, arquivo.</option>
+            <option value="acao-inesperada">Ação inesperada.</option>
+            <option value="problemas-login">Problemas com login.</option>
+            <option value="outros">Outros.</option>
+          </select><br>
+          </div>
+          <div class="form-column">
+            <label for="">Título/Assunto:</label>
+            <input type="text" name="assunto" required><br>
+           </div> 
+           <div class="form-column full-width">
+            <label for=""> Descrição detalhada:</label><br>
+            <textarea rows="5" required></textarea><br>
+          </div>
+        </div>
+        <hr>
+        <h4>Informações Técnicas</h4>
+        <div class="form-group">
+          <div class="form-column full-width">
+          <label for="">URL:</label>
+          <input type="url" name="url"><br>
+          <div class="form-column full-width">
+          <label for=""> Passos detalhados (bug):</label><br>
+          <textarea rows="5" required></textarea><br>
+          </div>
+        </div>
+        <div class="form-column full-width">
+          <label for="">Adicione um arquivo (caso necessário):</label><br>
+          <input type="file" name="arquivo" accept=".pdf/image/*"><br>
+        </div>
+        </div>
+        <hr>
+          <h4>Informações sobre o Ambiente do Usuário (bugs)</h4>
+
+          <label for="os">Sistema Operacional:</label><br>
+          <input type="text" id="os" name="os"><br>
+  
+          <label for="browser">Navegador e Versão:</label>
+          <input type="text" id="browser" name="browser"><br>
+        <hr>
+
+          <h4>Consentimento</h4> 
+          
+          <input type="checkbox" name="consentimento" required> Li e concordo com a <a href="/privacidade">Política de Privacidade.</a>
+        
+          <input type="submit" value="Enviar">
+        </form>
+    </section>
+    </main>
+    <footer>
+      
+    </footer>
 </body>
 </html>
