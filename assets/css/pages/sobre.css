@@ -1,13 +1,4 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-}
-
-h1 {
+.text-designer {
     background-image: linear-gradient(45deg, #022859, #0468BF);
     border-radius: 0px 0px 10px 10px;
     color: rgb(232, 232, 232);
@@ -25,7 +16,7 @@ h1 {
 }
 
 form {
-    width: 60%;
+    width: 50%;
     margin: auto;
     background: #fff;
     padding: 20px;
@@ -33,31 +24,18 @@ form {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
-    background-image: linear-gradient(45deg, #022859, #0468BF);
-    border-radius: 0px 0px 10px 10px;
-    color: rgb(232, 232, 232);
-    padding: 20px 0;
-    margin: 0 0 20px;
-    padding: 10px;
-    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.548);
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 80vw;
-    margin: auto;
-    
-}
-
-label, input, textarea, select {
+label,
+input,
+textarea,
+select {
     display: block;
     width: 100%;
     margin-bottom: 5px;
 }
 
-input, textarea, select {
+input,
+textarea,
+select {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
