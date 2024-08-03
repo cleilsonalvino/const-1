@@ -116,7 +116,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 100%;
     font-size: 1em;
     margin: auto;
     background-color: white;
