@@ -1,58 +1,61 @@
 @charset "UTF-8";
+
 @font-face {
     font-family: 'Poppins';
     src: url('/assets/fonts/Poppins-Medium.ttf');
 }
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
+
 }
 
-body{
-   padding: 10px;
-   width: 100vw;
-   height: 100vh;
-   background-color: rgb(239, 239, 239);
-   font-family: 'Poppins';
+body {
+    padding: 10px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(239, 239, 239);
+    font-family: 'Poppins';
 }
 
 
-h1, h2{
+h1,
+h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     padding: 10px 0px 20px 0px;
 }
 
-nav{
+nav {
     border-radius: 10px 10px 0px 0px;
     width: 80vw;
     margin: auto;
-    
+
 }
-nav > ul {
+
+nav>ul {
     display: flex;
     list-style: none;
     justify-content: space-around;
     margin-left: 20px;
-    
+
 }
 
-nav > ul > a {
+nav>ul>a {
     text-decoration: none;
     padding: 10px;
     transition: 0.2s linear;
 }
 
-nav > ul > a:hover {
+nav>ul>a:hover {
     background-color: #c9c9c9a4;
     padding: 10px;
     border-radius: 5px;
 }
 
-nav > ul > a:visited{
+nav>ul>a:visited {
     color: black;
 }
 
@@ -75,13 +78,13 @@ header {
 
 }
 
-header > p{
+header>p {
     font-family: "Poppins", sans-serif;
     padding-top: 20px;
 }
 
 
-header > ul{
+header>ul {
     display: flex;
     font-size: 14px;
     justify-content: space-around;
@@ -90,18 +93,18 @@ header > ul{
     padding: 10px;
 }
 
-header > ul > li{
+header>ul>li {
     margin: 10px;
     display: flex;
     align-items: center;
 }
 
-header > h1 {
+header>h1 {
     padding-top: 10px;
     padding-bottom: 0px;
 }
 
-main{
+main {
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -116,7 +119,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 100%;
     font-size: 1em;
     margin: auto;
     background-color: white;
@@ -125,27 +128,27 @@ section {
 }
 
 
-q{
+q {
     font-size: small;
 }
 
-.info-box{
+.info-box {
     column-count: 2;
     column-gap: 20px;
     width: 70vw;
     margin: 0;
 }
 
-.info-box > p {
-   margin: 0;
+.info-box>p {
+    margin: 0;
 }
 
-.info-box > img {
+.info-box>img {
     width: 100%;
     height: auto;
 }
 
-.content{
+.content {
     text-align: left;
     margin: 10px;
 }

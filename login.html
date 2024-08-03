@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=
     , initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/css/global/style.css">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/css/global/style.css">
+  <link rel="stylesheet" href="assets/css/global/footer.css">
+  <link rel="stylesheet" href="assets/css/pages/login.css">
+
 </head>
+
 <body>
   <nav>
     <ul>
@@ -57,6 +62,76 @@
     </ul>
   </header>
   <span><a href="index.html">Home</a> > <a href="login.html">Login</a></span>
+  <main>
+    <section>
+      <div class="login-container">
+        <h2>Login</h2>
+        <form action="/login" method="post">
+          <label for="usuario">Usuário</label>
+          <input type="text" name="username" required>
 
+          <label for="password">Senha</label>
+          <input type="password" name="password" required>
+
+          <button type="submit">Entrar</button>
+        </form>
+        <div class="links">
+          <p><a href="#">Esqueceu a senha?</a></p>
+          <p><a href="#">Criar uma conta</a></p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h2>Como Alterar Sua Senha</h2>
+        <p>Se você precisa alterar sua senha, siga os passos abaixo:</p>
+        <ol>
+          <li>Acesse a página de <a href="/login">login</a> do nosso site.</li>
+          <li>Clique no link "Esqueceu a senha?" abaixo do campo de login.</li>
+          <li>Insira seu endereço de email registrado e clique em "Enviar".</li>
+          <li>Verifique seu email para um link de redefinição de senha.</li>
+          <li>Clique no link recebido no email e siga as instruções para criar uma nova senha.</li>
+        </ol>
+        <p>Para garantir a segurança da sua conta, escolha uma senha forte que contenha:</p>
+        <ul>
+          <li>Ao menos 8 caracteres</li>
+          <li>Letras maiúsculas e minúsculas</li>
+          <li>Números</li>
+          <li>Caracteres especiais (como !, @, #, $)</li>
+        </ul>
+        <p>Se você encontrar qualquer problema, entre em contato com nosso suporte em <a
+            href="#">support@meusite.com</a>.</p>
+      </div>
+    </section>
+
+  </main>
+  <div class="footer-division"></div>
+  <footer>
+    <section>
+      <div class="footer-align">
+        <div class="footer-section">
+          <a href="./sobre.html" class="footer-title-sobre">Sobre</a>
+          <p>Um site dedicado a trazer as últimas notícias e informações relevantes.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Links Úteis</h3>
+          <ul>
+            <li><a href="./login.html">Página de Login</a></li>
+            <li><a href="./portal-de-noticias.html">Notícias</a></li>
+            <li><a href="./portal-de-games.html">Portal de Games</a></li>
+            <li><a href="./esportes.html">Esportes</a></li>
+            <li><a href="./educacao.html">Educação</a></li>
+            <li><a href="./sobre.html">Formulário de Contato</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contato</h3>
+          <p>Email: contato@seusite.com</p>
+          <p>Telefone: +55 1234-5678</p>
+        </div>
+      </div>
+    </section>
+  </footer>
 </body>
+
 </html>
