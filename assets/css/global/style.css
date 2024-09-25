@@ -29,8 +29,8 @@ h2 {
 }
 
 nav {
-    border-radius: 10px 10px 0px 0px;
-    width: 80vw;
+    
+    width: 80%;
     margin: auto;
 
 }
@@ -63,7 +63,6 @@ nav>ul>a:visited {
 
 header {
     background-image: linear-gradient(45deg, #022859, #0468BF);
-    border-radius: 0px 0px 10px 10px;
     color: rgb(232, 232, 232);
     font-size: 16px;
     padding: 10px;
@@ -73,7 +72,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 80vw;
+    width: 80%;
     margin: auto;
 
 }
@@ -105,12 +104,11 @@ header>h1 {
 }
 
 main {
-    width: 90%;
+    max-width: 800px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 80vw;
     margin: auto;
 
 }
@@ -127,13 +125,19 @@ section {
     text-align: justify;
 }
 
+img{
+    width: 100%;
+    height: auto;
+}
+
 
 q {
     font-size: small;
 }
 
 table {
-    width: 50%;
+    font-size: 1em;
+    width: 200px;
     border-collapse: collapse;
     margin-bottom: 20px;
 }
@@ -161,6 +165,7 @@ strong{
     column-gap: 20px;
     width: 70vw;
     margin: 0;
+
 }
 
 .info-box>p {
@@ -175,4 +180,132 @@ strong{
 .content {
     text-align: left;
     margin: 10px;
+}
+
+.navegacao{
+    background-color: #b6b6b6a4;
+    width: 79vw;
+    text-align: left;
+}
+
+.navbarMenor{
+    display: none;
+}
+
+
+
+/* From Uiverse.io by 3bdel3ziz-T */ 
+.burger {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    cursor: pointer;
+    transition: 300ms;
+    border-radius: 10px;
+  }
+  .burger input[type="checkbox"] {
+    appearance: none;
+    transition: 300ms;
+  }
+  
+  .burger::before,
+  .burger::after {
+    content: "";
+    transition: 300ms;
+    transform-origin: center center;
+  }
+  
+  .burger::before {
+    transform: translateY(8px);
+  }
+  .burger::after {
+    transform: translateY(-8px);
+  }
+  .burger .line,
+  .burger::before,
+  .burger::after {
+    width: 25px;
+    height: 2.1px;
+    display: block;
+    background-color: black;
+    border-radius: 5px;
+    position: absolute;
+  }
+  
+  .burger .line:checked {
+    width: 0;
+    transition-delay: 100ms;
+  }
+  .burger:has(.line:checked)::before {
+    animation: animation1 400ms ease-out 0s 1 both;
+  }
+  .burger:has(.line:checked)::after {
+    animation: animation2 400ms ease-out 0s 1 both;
+  }
+  
+  .burger:hover {
+    background: #aeaeae;
+    border-radius: 50%;
+  }
+  
+  .burger:hover .line,
+  .burger:hover::before,
+  .burger:hover::after {
+    background: #e8e8e8;
+  }
+  
+  .burger:active {
+    scale: 0.95;
+  }
+  @keyframes animation1 {
+    0% {
+      transform: translateY(8px) rotate(0deg);
+    }
+    50% {
+      transform: translateY(0px) rotate(0deg);
+    }
+    100% {
+      transform: translateY(0px) rotate(45deg);
+    }
+  }
+  @keyframes animation2 {
+    0% {
+      transform: translateY(-8px) rotate(0deg);
+    }
+    50% {
+      transform: translateY(0px) rotate(0deg);
+    }
+    100% {
+      transform: translateY(0px) rotate(-45deg);
+    }
+  }
+  
+
+@media (max-width: 1250px){
+    nav{
+        display: none;
+    }
+    .navbarMenorMenu{
+        display: none;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        height: 200px;
+    }
+
+    .navbarMenorMenu > a{
+        align-self: center;
+        flex-basis: 30px;
+    }
+
+    .navbarMenor{
+        display: block;
+    }
+
+    main{
+        max-width: 80%;
+    }
 }
